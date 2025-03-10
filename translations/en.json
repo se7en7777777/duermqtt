@@ -1,0 +1,37 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "This Token has been already configured"
+        },
+        "error": {
+            "invalid_uid": "Invalid Token"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "token": "User Token"
+                },
+                "title": "User"
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "title": "重新配置",
+                "menu_options": {
+                    "create_sync": "Create sync",
+                    "modify_sync": "Modify sync"
+                }
+            },
+            "create_sync": {
+                "title": "Create sync",
+                "description": "Select an entity to create sync."
+            },
+            "modify_sync": {
+                "title": "Modify a sync",
+                "description": "Select a sync to edit."
+            }
+        }
+    }
+}

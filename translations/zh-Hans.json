@@ -1,0 +1,53 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "平台密钥已经配置"
+        },
+        "error": {
+            "invalid_uid": "平台密钥错误"
+        },
+        "step": {
+            "user": {
+                "title": "添加平台密钥",
+                "description": "点击注册，获取平台密钥 https://xiaodu.ksznjj.com:8000",
+                "data": {
+                    "token": "平台密钥"
+                }
+            },
+            "include_device": {
+                "title": "包含设备明细",
+                "description": "选择需要推送到小度的子设备"
+            },
+            "select_domain": {
+                "title": "选择包含设备类型",
+                "description": "选择需要包含的设备类型"
+            }
+        },
+        "options": {
+            "step": {
+                "init": {
+                    "title": "请选择操作"
+                },
+                "change_token": {
+                    "title": "变更平台密钥",
+                    "description": "请粘帖新的平台密钥",
+                    "data": {
+                        "token": "平台密钥"
+                    }
+                },
+                "include_device": {
+                    "title": "设备明细",
+                    "description": "选择需要推送到小度的子设备"
+                },
+                "edit_domain": {
+                    "title": "HA设备域",
+                    "description": "选择需要包含的设备类型"
+                },
+                "empty": {
+                    "title": "Empty",
+                    "description": "No syncs found."
+                }
+            }
+        }
+    }
+}
